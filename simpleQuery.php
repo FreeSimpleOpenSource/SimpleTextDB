@@ -2,6 +2,7 @@
 class simpleQuery{
 	public $file, $content = [];
 	private $where, $select, $merge, $replaceSpace, $AvailableTextFormat;
+	private $last_indexes = [];
 	private $order_by = [];
 	const ASC = 1;
 	const DESC = 0;
